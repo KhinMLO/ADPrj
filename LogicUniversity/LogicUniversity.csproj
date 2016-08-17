@@ -3746,6 +3746,7 @@
     <Content Include="less\mixins.less" />
     <Content Include="less\sb-admin-2.less" />
     <Content Include="less\variables.less" />
+    <None Include="Properties\PublishProfiles\Test.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -3776,7 +3777,9 @@
     <None Include="Scripts\_references.js" />
     <Content Include="Service1.svc" />
     <Content Include="ViewSwitcher.ascx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="WebView\ChangePIN.aspx" />
     <Content Include="WebView\Employee\ChangeCollectionPoint.aspx" />
     <Content Include="WebView\Employee\ChangeDepartmentRepresentative.aspx" />
