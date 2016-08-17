@@ -15,7 +15,6 @@ namespace LogicUniversity
     public class Service1 : IService1
     {
         String result = "";
-
         private bool CheckLogin(string id, string password)
         {
             LoginControl loginController = new LoginControl();
@@ -29,10 +28,7 @@ namespace LogicUniversity
             {
                 return true;
             }
-
         }
-
-
         //03/09/2016
         public List<DisbursementItemView> getDisbursementsForAcknowledgement(String deptID, String userID, String pinValue)
         {
